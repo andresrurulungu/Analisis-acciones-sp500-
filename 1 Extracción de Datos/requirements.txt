@@ -1,0 +1,4 @@
+pyodbc
+csv
+pandas
+logging
