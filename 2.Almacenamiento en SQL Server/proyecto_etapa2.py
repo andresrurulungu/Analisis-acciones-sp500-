@@ -17,8 +17,8 @@ connection_string = f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};D
 try:
     logging.info("Conectando a los archivos csv...")
 #conexion a los archivos csv en el disco local
-    df = pd.read_csv('C:\\Users\\anfer\\OneDrive\\Documentos\\bootcamp\\Nueva carpeta 2\\proyecto etapa 3\\precios\\lista_S_P500.csv')
-    datos = pd.read_csv('C:\\Users\\anfer\\OneDrive\\Documentos\\bootcamp\\Nueva carpeta 2\\proyecto etapa 3\\precios\\precios_S_P500.csv')
+    df = pd.read_csv('archivo csv lista_S_P500.csv')
+    datos = pd.read_csv('archivo csv precios_S_P500.csv')
     
     logging.info("Leyendo archivo CSV...")
     if datos is not None:
