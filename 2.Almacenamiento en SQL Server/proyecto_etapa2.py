@@ -8,10 +8,10 @@ logging.basicConfig(filename='carga_datos.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Parametros para la conexion al servidor
-server = 'LAPTOP-QAAK1ECU\\SQLEXPRESS'
-database = 'Proyecto'
-username = 'anrodriguezq'
-password = 'andres17'
+server = 'Nombre del servidor'
+database = 'Nombre de la base de datos'
+username = 'usarname del servidor'
+password = 'clave del servidor'
 connection_string = f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}'
 
 try:
