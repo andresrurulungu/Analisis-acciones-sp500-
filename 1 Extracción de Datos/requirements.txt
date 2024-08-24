@@ -1,4 +1,4 @@
-pyodbc
-csv
+yfinance
 pandas
-logging
+prophet
+bs4
